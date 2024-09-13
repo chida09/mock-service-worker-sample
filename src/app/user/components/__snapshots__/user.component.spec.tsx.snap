@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`UserComponent > should render correctly 1`] = `
+<DocumentFragment>
+  <h1>
+    User
+  </h1>
+  <ul>
+    <li>
+      1: Leanne
+    </li>
+    <li>
+      2: Clementina
+    </li>
+  </ul>
+</DocumentFragment>
+`;

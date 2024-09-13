@@ -1,0 +1,35 @@
+{
+  "name": "mock-service-worker-sample",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --experimental-https -p 3002",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest",
+    "test:u": "vitest --update"
+  },
+  "dependencies": {
+    "next": "14.2.8",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.5.0",
+    "@testing-library/react": "^16.0.1",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.8",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^25.0.0",
+    "msw": "^2.4.5",
+    "typescript": "^5",
+    "vitest": "^2.0.5"
+  }
+}

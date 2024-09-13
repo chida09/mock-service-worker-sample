@@ -1,0 +1,58 @@
+{
+  "compilerOptions": {
+    // Specifies the ECMAScript target version
+    "target": "esnext",
+    // Include the specified library files in the compilation
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    // Specify module code generation
+    "module": "esnext",
+    // Enables interoperability between CommonJS and ES Modules
+    "esModuleInterop": true,
+    // Do not perform type checking on *.d.ts files
+    "skipLibCheck": true,
+    // Determine how modules get resolved
+    "moduleResolution": "bundler",
+    // Allow importing TypeScript files with extensions
+    "allowImportingTsExtensions": true,
+    // Allows importing JSON files as modules
+    "resolveJsonModule": true,
+    // Ensures each file can be safely transpiled without relying on other imports
+    "isolatedModules": true,
+    // Prevents output file generation
+    "noEmit": true,
+    // Specifies JSX code generation
+    "jsx": "preserve",
+    // Enable all strict type-checking options
+    "strict": true,
+    // Disallow unused variables
+    "noUnusedLocals": true,
+    // Allows JavaScript files to be compiled
+    "allowJs": true,
+    // Only compile only the differences that have changed
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "include": [
+    "./src",
+    "./dist/types/**/*.ts",
+    "./next-env.d.ts",
+    ".next/types/**/*.ts",
+    "./vitest.setup.ts"
+  ],
+  "exclude": [
+    "./node_modules"
+  ]
+}
